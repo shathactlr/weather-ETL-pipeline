@@ -19,7 +19,7 @@ weather-etl-pipeline/
 
 ## Pipeline Architecture
 1. **Extract:** Fetch real-time weather data from OpenWeatherMap API.
-2. **Transform:**Convert temperatures from Kelvin to Celsius and clean missing values.
+2. **Transform:** Convert temperatures from Kelvin to Celsius and clean missing values.
 3. **Load:** Store data into SQLite database and export a CSV backup.
 
 ## How to Run
